@@ -7,8 +7,9 @@ export default function Home() {
     <>
       <Header currentPage="Home" />
       <div style={{ color: 'purple'}}>
-        <h1>Hello world in dex page</h1>
-        <p><Link to="/contact">link to contact</Link></p>
+        <h1>Hello world index page</h1>
+        <p><Link to="/about">ABOUT US</Link></p>
+        <p><Link to="/contact">CONTACT</Link></p>
         <p>this is a photo</p>
         <img src="https://source.unsplash.com/random/400x400" />
       </div>
